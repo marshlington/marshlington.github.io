@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+/* Universal Stylings */ /* Universal Stylings */ /* Universal Stylings */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* Header Stylings */ /* Header Stylings */ /* Header Stylings */
+
+header {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+    margin: 0 24px;
+}
+
+header img {
+    height: 32px;
+}
+
+/* Before I set margin-right:48px in the below, the navbar was overflowing by 24px. Gotta be a better way to solve this. */
+nav {
+    margin-left: auto;
+    margin-right: 48px;
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+
+
