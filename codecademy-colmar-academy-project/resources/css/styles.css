@@ -148,9 +148,7 @@ nav ul li {
     min-width: 35%;
 }
 
-.section-one-image {
-    width: 100%;
-}
+
 
 
 
@@ -382,6 +380,146 @@ footer {
         width: 100%;
     }
 
+    .banner-text-container {
+        text-align: center;
+        margin: 16px;;
+    }
+
+    .banner-text-container h2 {
+        font-size: 2.5rem;
+        margin: 32px 16px 24px 16px;
+    }
+
+    .banner-text-container button {
+        margin: 0px auto 32px auto;
+    }
+
+
+    /* Section 1 Stylings */
+
+    .section-one {
+        margin-top: 16px;
+    }
+    .section-one-container-one {
+        display: none;
+    }
+
+
+    .section-one-container-two {
+        width: 100%;
+        padding: 16px 16px 32px 16px;
+        margin: 0px;
+        display: inline-block;
+    }
+
+    .section-one-container-two h3 {
+        font-size: 4.5vw;
+    }
+
+
+    .section-one-image{
+        display: none;
+        max-width: 100%;
+    }
+
+
+    .section-one-mobile-image{
+        width: 100%;
+    }
+
+    .section-one-container-two-subcontainer {
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .section-one-image-container {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #subcontainer-three {
+        background: none;
+    }
+
+
+    /* Section 2 Stylings */
+
+    .section-two {
+        background: none;
+        display: block;
+        padding: 0px;
+        margin-bottom: 64px;
+    }
+
+    .section-two-container {
+        display: block;
+    }
+
+
+    /* Hiding Desktop course items */
+
+    .course {
+        display: none;
+    }
+
+    .mobile-course {
+        display: block;
+
+    }
+
+    .section-two h2 {
+        font-size: 6.5vw;
+        padding-top: 0px;
+    }
+
+    .mobile-course {
+        background-color: rgb(218, 210, 210);
+        margin: 8px 16px;
+    }
+
+    .mobile-course h3 {
+        padding: 16px 0px 24px 24px;
+        font-size: 4.5vw;
+    }
+
+
+    /* Section Three Stylings */
+
+    .section-three-header {
+        font-size: 6.5vw;
+    }
+
+    .section-three {
+        display: block;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .section-three-container-one {
+        display: block;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .section-three-container-one img {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .section-three-container-one h2,
+    .section-three-container-one p,
+    .section-three-container-two,
+    .section-three-container-two-subcontainer
+    section-three-container-one {
+        display: none;
+    }
+
+    
+
+
+
+    .section-three-container
 } 
 
 
